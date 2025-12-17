@@ -5,6 +5,6 @@ do
 {
     DateTime currentTime = DateTime.Now;
     Console.SetCursorPosition(1, 1);
-    Console.Write("Time:"+currentTime.ToLongTimeString());
+    Console.Write("Time:" + currentTime.ToLongTimeString());
     Thread.Sleep(1000);
 }while (!Console.KeyAvailable);
